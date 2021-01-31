@@ -2,7 +2,7 @@ app.auth({
     persistence: "none" //避免与同实例冲突
 }).anonymousAuthProvider().signIn().then(() => {
     var bbClass = '#bber'
-    $(bbClass).after('<div class="load"><button class="load-btn button-load">加载中……</button></div>')
+j   $(bbClass).after('<div class="load"><button class="load-btn button-load">加载中……</button></div>')
     const db = app.database()
     const collection = db.collection('talks')
     var count=0, per = 9,page = 1
