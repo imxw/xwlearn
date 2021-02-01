@@ -1,15 +1,21 @@
 ---
 title: '关于'
-date: 2010-01-01 15:08:27
+date: 2020-02-01 15:08:27
 layout: 'posts'
 ---
 
 运维开发工程师一枚
 
-### 友链
+### 我的朋友
 
 {{< friend des="" url="https://immmmm.com" md5="ba83fa02fc4b2ba621514941307e21be" name="immmmm" >}}
 
 {{< friend des="" url="https://lijinghua.club/" md5="8834119669279ec90a90a8ee0422a9d0" name="李精华" >}}
 
 
+### 欢迎打赏
+
+<figure>
+    <img src="https://lmm.elizen.me/wx.jpg" alt="微信打赏" />
+    <figcaption>微信打赏</figcaption>
+</figure>
