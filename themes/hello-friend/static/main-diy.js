@@ -133,7 +133,7 @@ jQuery(document).ready(function ($) {
 
 $(document).ready(function(){
   if ( $("#bber-talk").length > 0 ) {
-    jsonUrl = "https://6262-bb-f5c0f-1252354806.tcb.qcloud.la/json/bber.json"
+    jsonUrl = "https://7877-xwlearn-7g28keje58278de4-1256217793.tcb.qcloud.la/json/bber.json"
     $.getJSON(jsonUrl+"?t="+Date.parse( new Date()),function(res){
       var bberHtml = ''
       $.each(res.data, function(i, item){
