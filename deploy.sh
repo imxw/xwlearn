@@ -30,6 +30,7 @@ pwd;git pull origin blog && git status
 git add .; git status
 git commit -m "${commit}"
 git push origin blog && echo "本地更改已提交至远程仓库"
+git log -n 1
 
 # 判断public目录是否存在，存在则删除
 [ -d ${public_path} ] && echo "开始删除${public_path}";rm -rf ${public_path}
