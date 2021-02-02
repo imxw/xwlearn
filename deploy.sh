@@ -26,10 +26,10 @@ public_git(){
 
 # 提交blog更改到远程blog分支
 echo "将会将本地更改提交到远程blog分支"
-pwd;git pull origin blog && git status
+echo "当前目录：$(pwd)";git pull origin blog && git status
 git add .; git status
 git commit -m "${commit}"
-git push origin blog && echo "本地更改已提交至远程仓库"
+git push origin blog && echo "本地更改已提交至远程仓库blog分支"
 git log -n 1
 
 # 判断public目录是否存在，存在则删除
@@ -39,6 +39,6 @@ echo "执行hugo生成html文件"
 hugo
 
 #操作public目录
-cd ${public_path};pwd
-public_git
+cd ${public_path};echo "当前目录：$(pwd)"
+public_git && echo "本地更改已提交至远程仓库master分支"
 git log -n 1

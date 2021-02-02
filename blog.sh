@@ -16,6 +16,7 @@ post_path=${post_dir}/${post_name}
 if [ $1 == 0 ];then
     post_name=${today}.md
     filename=${today}
+    title=${today}
     post_path=${post_dir}/chat/${post_name}
 fi
 
@@ -24,7 +25,7 @@ full_post_path=${current_dir}/${post_path}
 
 cat > ${post_path} <<EOF
 ---
-title: ""
+title: "${title}"
 slug: $filename
 date: ${date}
 tags: []
