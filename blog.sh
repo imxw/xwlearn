@@ -18,6 +18,13 @@ if [ $1 == 0 ];then
     filename=${today}
     title=${today}
     post_path=${post_dir}/chat/${post_name}
+elif [ $1 == 1 ];then
+    title="资治通鉴卷x纪xpx"
+    filename="history-as-a-mirror-bookx-x-periodx-pagex"
+    post_name=${today}-${filename}.md
+    post_path=${post_dir}/chat/${post_name}
+    tag="资治通鉴"
+    memo="- [ ] 修改文件名\n - [ ] 修改slug \n - [ ] 修改title"
 fi
 
 current_dir=$(dirname $(readlink -f "$0"))
@@ -28,9 +35,10 @@ cat > ${post_path} <<EOF
 title: "${title}"
 slug: $filename
 date: ${date}
-tags: []
+tags: [${tag}]
 draft: false
 ---
+${memo}
 EOF
 
 echo "${full_post_path} created"
