@@ -1,6 +1,6 @@
 ---
-title: "2021-02-03"
-slug: 2021-02-03
+title: "资治通鉴卷第一百二十一宋纪三p557"
+slug: history-as-a-mirror-book121-song-period3-page557
 date: 2021-02-03T20:39:03+08:00
 tags: [资治通鉴]
 draft: false
