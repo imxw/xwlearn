@@ -36,7 +36,7 @@ title: "${title}"
 slug: $filename
 date: ${date}
 tags: [${tag}]
-draft: false
+draft: true
 ---
 ${memo}
 EOF
