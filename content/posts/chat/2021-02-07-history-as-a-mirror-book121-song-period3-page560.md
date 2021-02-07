@@ -1,5 +1,5 @@
 ---
-title: "资治通鉴卷一百二十一宋纪三p560"
+title: "资治通鉴卷第一百二十一宋纪三p560"
 slug: history-as-a-mirror-book121-song-period3-page560
 date: 2021-02-07T21:55:40+08:00
 tags: [资治通鉴]
