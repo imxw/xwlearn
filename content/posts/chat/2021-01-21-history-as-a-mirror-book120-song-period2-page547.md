@@ -3,7 +3,7 @@ title: "资治通鉴卷第一百二十宋纪二p547"
 slug: history-as-a-mirror-book120-song-period2-page547
 date: 2021-01-21T11:51:38+08:00
 tags: [资治通鉴]
-draft: false
+draft: true
 ---
 
 宋文帝刘义隆下令诛杀徐羡之、傅亮、谢晦。徐羡之、傅亮自杀，谢晦反，因檀道济非废帝杀帝主谋，便绕了他并令其讨伐谢晦。

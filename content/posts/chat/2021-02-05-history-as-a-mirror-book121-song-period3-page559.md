@@ -3,7 +3,7 @@ title: "资治通鉴卷第一百二十一宋纪三p559"
 slug: history-as-a-mirror-book121-song-period3-page559
 date: 2021-02-05T10:40:10+08:00
 tags: [资治通鉴]
-draft: false
+draft: true
 ---
 
 南朝宋文帝刘义隆给弟弟刘义恭委以重任后，去信一封，满是兄长对弟弟的劝诫之意，言辞恳切，千载之后读罢，依旧感人。现摘录几点如下：

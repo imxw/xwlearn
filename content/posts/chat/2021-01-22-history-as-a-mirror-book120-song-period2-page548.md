@@ -3,7 +3,7 @@ title: "资治通鉴卷第一百二十宋纪二p548"
 slug: history-as-a-mirror-book120-song-period2-page548
 date: 2021-01-22T11:51:38+08:00
 tags: [资治通鉴]
-draft: false
+draft: true
 ---
 
 1. 徐、傅既死，谢晦起兵反，言清君侧。数日间，集兵三万。初战告捷，谢晦洋洋得意，不知末日将至。

@@ -3,7 +3,7 @@ title: "资治通鉴卷第一百二十一宋纪三p556"
 slug: history-as-a-mirror-book121-song-period3-page556
 date: 2021-02-02T14:25:40+08:00
 tags: [资治通鉴]
-draft: false
+draft: true
 ---
 
 王弘、王昙首兄弟深受宋文帝刘义隆宠信，范泰劝王弘适当减权，以免引火烧身。时大旱，王弘趁机上表，请求降职。帝不许。
