@@ -2,7 +2,7 @@
 title: "如何在iOS端优雅地bb"
 slug: howto-graciously-bb-in-ios
 date: 2020-05-01T15:45:18+08:00
-tags: []
+tags: [bb]
 draft: false
 ---
 
@@ -72,7 +72,5 @@ if __name__ == '__main__':
 
 按如下操作将脚本执行快捷方式保存在主屏幕并执行，执行效果看倒数第二张动图。
 
-<photos>![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged57ebql7j30ku112q46.jpg)![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged58aflr0j30ku112jsu.jpg)![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged59c00kzj30dz0ni74w.jpg)![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged5aeznw3j30dv0ongm3.jpg)![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged5bezyvcj30ku11275m.jpg)![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged5fbuduej30ku112go9.jpg)</photos>
-
-<photos>![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged1rwzstwg30ku112qkr.gif)![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged42vdrmxj30ku0syt9b.jpg)</photos>
+<photos>![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged57ebql7j30ku112q46.jpg)![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged58aflr0j30ku112jsu.jpg)![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged59c00kzj30dz0ni74w.jpg)![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged5aeznw3j30dv0ongm3.jpg)![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged5bezyvcj30ku11275m.jpg)![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged5fbuduej30ku112go9.jpg)![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged1rwzstwg30ku112qkr.gif)![](https://tva1.sinaimg.cn/large/007S8ZIlgy1ged42vdrmxj30ku0syt9b.jpg)</photos>
 
