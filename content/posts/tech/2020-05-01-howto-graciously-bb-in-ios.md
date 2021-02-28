@@ -6,9 +6,8 @@ tags: [bb]
 draft: false
 ---
 
-{{<link "howto-graciously-bb-in-mac">}}
 
-上篇博文介绍了如何利用 [leanCloud](https://leancloud.app) 及 [GitHub](https://github.com) 搭建一个 「[无赞无评论私人微博](https://sspai.com/post/60024)」并在 MacOS 端利用 [uTools](https://u.tools) 发布内容，今天说说 iOS 端如何发布内容。
+[上篇博文](https://xwlearn.com/howto-graciously-bb-in-mac) 介绍了如何利用 [leanCloud](https://leancloud.app) 及 [GitHub](https://github.com) 搭建一个 「[无赞无评论私人微博](https://sspai.com/post/60024)」并在 MacOS 端利用 [uTools](https://u.tools) 发布内容，今天说说 iOS 端如何发布内容。
 >  其实 uTools 是一款跨平台效率工具，Windows 与 Linux 端都可以使用。
 
 在iOS 端，[原作者 daibor](https://sspai.com/u/daibor/updates) 已经提供了一个「[捷径](https://www.icloud.com/shortcuts/3cfcbc36a6a24e0a8721bfeef8dfc6cf)」工具。如果不想再折腾了，其实已经够用了。

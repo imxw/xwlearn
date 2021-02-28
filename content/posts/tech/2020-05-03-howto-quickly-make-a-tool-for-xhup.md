@@ -1,7 +1,7 @@
 ---
 title: "使用Python开发一款小鹤双拼编码查询工具"
 slug: howto-quickly-make-a-tool-for-xhup
-date: 2021-05-03T18:08:30+08:00
+date: 2020-05-03T18:08:30+08:00
 tags: []
 draft: false
 ---
