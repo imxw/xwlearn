@@ -2,7 +2,7 @@
 title: "如何在Mac上使用uTools优雅地bb？"
 slug: howto-graciously-bb-in-mac
 date: 2020-04-27T17:09:16+08:00
-tags: []
+tags: [bb]
 draft: false
 ---
 
