@@ -1,3 +1,6 @@
 **/.DS_Store
 .favorites.json
+.metion/
+.configs/
+.sync/
 public/
