@@ -6,10 +6,5 @@ layout: 'posts'
 
 运维开发工程师一枚
 
-### 友链
-
-{{< friend des="" url="https://immmmm.com" md5="ba83fa02fc4b2ba621514941307e21be" name="immmmm" >}}
-
-{{< friend des="" url="https://lijinghua.club/" md5="8834119669279ec90a90a8ee0422a9d0" name="李精华" >}}
 
 
