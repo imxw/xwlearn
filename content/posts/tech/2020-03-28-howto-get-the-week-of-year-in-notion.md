@@ -1,7 +1,7 @@
 ---
 title: "如何在Notion中计算某日属于当年第几周？"
 slug: howto-get-the-week-of-year-in-notion
-date: 2021-02-18T00:12:36+08:00
+date: 2020-03-28T19:59:19+08:00
 tags: [notion]
 draft: false
 ---

@@ -8,7 +8,7 @@ fi
 
 filename=$1
 today=$(date +"%F")
-date=${today}T$(date +"%T%:z")
+date=${today}T$(date +"%T+08:00")
 post_dir=content/posts
 post_name=${today}-${filename}.md
 post_path=${post_dir}/${post_name}
