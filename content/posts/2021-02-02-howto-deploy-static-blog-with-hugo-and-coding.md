@@ -1,6 +1,5 @@
 ---
 title: "使用hugo与coding部署静态博客"
-slug: howto-deploy-static-blog-with-hugo-and-coding
 date: 2021-02-02T20:03:35+08:00
 tags: []
 draft: true

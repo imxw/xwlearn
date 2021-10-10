@@ -1,8 +1,8 @@
 ---
 title: "利用kubeadm部署kubernetes1.17.2"
 date: 2020-01-27T19:34:00+08:00
+lastmod: 2020-01-27T19:34:00+08:00
 slug: config-k8s-1.17.2-with-kubeadm
-toc: true
 tags: [kubernetes]
 ---
 

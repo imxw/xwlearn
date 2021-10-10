@@ -1,8 +1,8 @@
 ---
-title: "一个 jar 包启动脚本"
+title: "一个jar包启动脚本"
 date: 2018-12-27T18:30:00+08:00
+lastmod: 2018-12-27T18:30:00+08:00
 slug: start-up-script-of-jar-package
-toc: true
 ---
 
 

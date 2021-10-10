@@ -1,8 +1,8 @@
 ---
 title: "如何替换jar/war包里的文件"
 date: 2018-12-25T10:14:00+08:00
+lastmod: 2018-12-25T10:14:00+08:00
 slug: howto-replace-file-in-war-package
-toc: true
 ---
 
 ### 要替换的文件在包的根目录

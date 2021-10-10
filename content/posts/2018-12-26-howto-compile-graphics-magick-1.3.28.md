@@ -1,8 +1,8 @@
 ---
 title: 编译安装GraphicsMagick-1.3.28
 date: 2018-12-26T17:25:00+08:00
+lastmod: 2018-12-26T17:25:00+08:00
 slug: howto-compile-graphics-magick
-toc: true
 ---
 
 GraphicsMagick 号称为图像处理领域的瑞士军刀，下面是我的安装笔记，如果你想一键安装可以在命令行运行

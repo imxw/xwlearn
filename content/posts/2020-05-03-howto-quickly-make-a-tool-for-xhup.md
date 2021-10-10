@@ -2,8 +2,8 @@
 title: "使用Python开发一款小鹤双拼编码查询工具"
 slug: howto-quickly-make-a-tool-for-xhup
 date: 2020-05-03T18:08:30+08:00
+lastmod: 2020-05-03T18:08:30+08:00
 tags: []
-draft: false
 ---
 
 学生生涯结束，踏入社会，没有成绩、学分约束，没有老师、学校监督，完全凭个人兴趣、意志自学的技能，挑出三个你最有成就感的。

@@ -1,6 +1,7 @@
 ---
 title: "文艺批评与普通读者"
 date: 2013-11-15T02:30:00
+lastmod: 2013-11-15T02:30:00
 slug: literary-criticism-and-common-reader
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "小时读书"
 date: 2014-01-20T02:18:00+08:00
+lastmod: 2014-01-20T02:18:00+08:00
 slug: read-book-in-childhood
 ---
 

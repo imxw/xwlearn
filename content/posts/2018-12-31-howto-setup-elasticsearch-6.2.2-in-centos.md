@@ -1,6 +1,7 @@
 ---
-title: Centos7上安装 elasticsearch-6.2.2及相关插件
+title: Centos7上安装elasticsearch-6.2.2及相关插件
 date: 2018-12-31T12:57:00+08:00
+lastmod: 2018-12-31T12:57:00+08:00
 slug: howto-setup-elasticsearch-6.2.2-in-centos
 ---
 

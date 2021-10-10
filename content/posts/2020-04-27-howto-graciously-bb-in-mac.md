@@ -2,8 +2,8 @@
 title: "如何在Mac上使用uTools优雅地bb？"
 slug: howto-graciously-bb-in-mac
 date: 2020-04-27T17:09:16+08:00
+lastmod: 2020-04-27T17:09:16+08:00
 tags: [bb]
-draft: false
 ---
 
 几天前看了少数派一篇教程「[保卫表达：用后端 BaaS 快速搭建专属无点赞评论版微博——b言b语 ](https://sspai.com/post/60024)」，顿时兴奋不已，这不正是我期盼已久的东西么。像新浪微博、之前 qq 空间里的说说以及现在的朋友圈，都有作者总结的如下问题。

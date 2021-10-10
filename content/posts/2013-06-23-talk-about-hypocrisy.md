@@ -1,6 +1,7 @@
 ---
 title: "谈装"
 date: 2013-06-23T02:08:00+08:00
+lastmod: 2013-06-23T02:08:00+08:00
 slug: talk-about-hypocrisy
 ---
 

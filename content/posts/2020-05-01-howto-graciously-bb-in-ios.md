@@ -1,7 +1,7 @@
 ---
 title: "如何在iOS端优雅地bb"
-slug: howto-graciously-bb-in-ios
 date: 2020-05-01T15:45:18+08:00
+lastmod: 2020-05-01T15:45:18+08:00
 tags: [bb]
 draft: false
 ---

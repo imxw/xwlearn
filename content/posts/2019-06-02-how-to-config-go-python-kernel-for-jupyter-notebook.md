@@ -1,8 +1,8 @@
 ---
 title: "利用Jupyter Notebook打造go及python交互式编程环境"
 date: 2019-06-02T21:17:00+08:00
+lastmod: 2019-06-02T21:17:00+08:00
 slug: how-to-config-go-python-kernel-for-jupyter-notebook
-toc: true
 ---
 
 ## 先说说Jupyter Notebook
