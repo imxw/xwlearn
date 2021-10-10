@@ -4,6 +4,7 @@ slug: howto-quickly-make-a-tool-for-xhup
 date: 2020-05-03T18:08:30+08:00
 lastmod: 2020-05-03T18:08:30+08:00
 tags: []
+featuredImage: https://images.unsplash.com/photo-1521225753516-46438a76f25a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80
 ---
 
 学生生涯结束，踏入社会，没有成绩、学分约束，没有老师、学校监督，完全凭个人兴趣、意志自学的技能，挑出三个你最有成就感的。
