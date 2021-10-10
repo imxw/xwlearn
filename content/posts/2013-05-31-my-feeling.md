@@ -2,6 +2,8 @@
 title: "碎语闲言"
 date: 2013-05-31T01:52:00+08:00
 lastmod: 2013-05-31T01:52:00+08:00
+toc: false
+featuredImage: https://images.unsplash.com/photo-1505682634904-d7c8d95cdc50?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
 ---
 
 自信爱读书，看了纳博科夫，自卑不已。与之相比，我那只能算吞书，尚未入门，难怪消化不良。

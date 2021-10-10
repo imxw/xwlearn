@@ -2,7 +2,8 @@
 title: "谈装"
 date: 2013-06-23T02:08:00+08:00
 lastmod: 2013-06-23T02:08:00+08:00
-slug: talk-about-hypocrisy
+toc: false
+featuredImage: https://images.unsplash.com/photo-1505682634904-d7c8d95cdc50?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
 ---
 
 常感古人造字之形象之会意。

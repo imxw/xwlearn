@@ -2,7 +2,8 @@
 title: "vim高尔夫解说之逗号问题"
 date: 2018-12-19T22:16:00+08:00
 lastmod: 2018-12-19T22:16:00+08:00
-slug: vimgolf-comma-trouble 
+featuredImagePreview: https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
+fontawesome: true
 ---
 
 vim 是 vi 编辑器的升级版，是 Linux <i class="fa fa-linux" aria-hidden="true"></i> 世界最为著名的一款文本编辑器，国外有个叫 [vimgolf](http://www.vimgolf.com) 的网站,将 vim 操作比作打高尔夫球，里面设计了很多挑战，你可以在那里测试、提高自己的 vim 水平。
@@ -17,7 +18,7 @@ vim 是 vi 编辑器的升级版，是 Linux <i class="fa fa-linux" aria-hidden=
 
 **初始文本**
 
-```shell
+```
 ,0,1,2,3,4,5,6,7,89
 ,1,2,3,4,5,6,7,8,90
 ,2,3,4,5,6,7,8,9,01
@@ -32,7 +33,7 @@ vim 是 vi 编辑器的升级版，是 Linux <i class="fa fa-linux" aria-hidden=
 
 **目标文本**
 
-```shell
+```
 0,1,2,3,4,5,6,7,8,9
 1,2,3,4,5,6,7,8,9,0
 2,3,4,5,6,7,8,9,0,1
@@ -64,7 +65,7 @@ vim 是 vi 编辑器的升级版，是 Linux <i class="fa fa-linux" aria-hidden=
 
 ![image](https://ws3.sinaimg.cn/large/006tNbRwly1fyfjq1umxxg307u074q3g.gif)
 
-```shell
+```bash
 :1,5norm x$P<CR>
 ```
 
@@ -75,7 +76,7 @@ vim 是 vi 编辑器的升级版，是 Linux <i class="fa fa-linux" aria-hidden=
 
 ![image](https://ws3.sinaimg.cn/large/006tNbRwly1fyfjusmf8pg307u0743z3.gif)
 
-```shell
+```bash
 :6,$norm $x0p<CR>ZZ
 ```
 
@@ -90,7 +91,7 @@ vim 是 vi 编辑器的升级版，是 Linux <i class="fa fa-linux" aria-hidden=
 
 ![image](https://ws4.sinaimg.cn/large/006tNbRwly1fyfjvnost9g307u074407.gif)
 
-```shell
+```bash
 <C-V>4jx$<C-V>4jI,<Esc>6G<C-V>4jA,<Esc>$<C-V>4jdZZ
 ```
 
@@ -105,7 +106,7 @@ vim 是 vi 编辑器的升级版，是 Linux <i class="fa fa-linux" aria-hidden=
 
 ![image](https://ws3.sinaimg.cn/large/006tNbRwly1fyfjwwqtcgg307u074gmy.gif)
 
-```shell
+```bash
 qa<C-V>4jx6G$q@a0p{$PZZ
 ```
 
@@ -119,7 +120,7 @@ qa<C-V>4jx6G$q@a0p{$PZZ
 
 ![image](https://ws1.sinaimg.cn/large/006tNbRwly1fyfjyzjx4kg307u074js0.gif)
 
-```shell
+```bash
 <C-V>Mx$P}<C-V>4kx0pZZ
 ```
 
@@ -131,11 +132,11 @@ qa<C-V>4jx6G$q@a0p{$PZZ
 这是我能想出来的最少键数了，不过还有更变态的
 
 
-## <i class="fa fa-thumbs-up" aria-hidden="true"></i> 终极操作：12分
+## :(fa fa-thumbs-up): 终极操作：12分
 
 ![image](https://ws1.sinaimg.cn/large/006tNbRwly1fyfk0jipsyg307u074gm8.gif)
 
-```shell
+```bash
 qaxpeq98@aZZ
 ```
 

@@ -3,7 +3,11 @@ title: "如何在iOS端优雅地bb"
 date: 2020-05-01T15:45:18+08:00
 lastmod: 2020-05-01T15:45:18+08:00
 tags: [bb]
+featuredImagePreview: "http://omz-software.com/pythonista/images/DeviceScreenshots.png"
 draft: false
+toc:
+  enable: false
+lightgallery: true
 ---
 
 
@@ -12,7 +16,9 @@ draft: false
 
 在iOS 端，[原作者 daibor](https://sspai.com/u/daibor/updates) 已经提供了一个「[捷径](https://www.icloud.com/shortcuts/3cfcbc36a6a24e0a8721bfeef8dfc6cf)」工具。如果不想再折腾了，其实已经够用了。
 
-<photos>![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gecz0iw4ifg30ku112wz1.gif)![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gecz42heewj309r0ezwek.jpg)</photos>
+![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gecz0iw4ifg30ku112wz1.gif)
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gecz42heewj309r0ezwek.jpg)
 
 不过，我恰恰喜欢折腾。而且，苹果自带的「快捷指令」是面向大众的，操作简单，无需过多编程基础，就像搭积木一样组合功能。优点是上手简单，缺点是它不是一款专业的编程工具，它的简单在面向一些稍复杂点的需求时就不简单，比如调第三方接口的操作，显得异常繁琐。好在，iOS端还有一款专业级编程工具:
 [Pythonista](http://omz-software.com/pythonista/)

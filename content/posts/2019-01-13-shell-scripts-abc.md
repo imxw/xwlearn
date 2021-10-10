@@ -2,7 +2,7 @@
 title: "十分钟入门shell脚本"
 date: 2019-01-13T21:05:00+08:00
 lastmod: 2019-01-13T21:05:00+08:00
-slug: shell-scripts-abc
+featuredImage: "https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
 ---
 
 在正式开始前，我们可以思考一个问题，学习一门技术难吗？不少人的答案可能是很难。

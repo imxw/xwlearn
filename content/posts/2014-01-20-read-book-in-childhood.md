@@ -2,7 +2,8 @@
 title: "小时读书"
 date: 2014-01-20T02:18:00+08:00
 lastmod: 2014-01-20T02:18:00+08:00
-slug: read-book-in-childhood
+featuredImage: https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80
+toc: false
 ---
 
 李白有诗：小时不识月，呼作白玉盘。初次见月，没有“月”这个概念，故不识，此乃小孩之常情。

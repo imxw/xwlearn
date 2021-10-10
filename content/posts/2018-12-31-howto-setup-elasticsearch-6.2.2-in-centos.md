@@ -2,7 +2,7 @@
 title: Centos7上安装elasticsearch-6.2.2及相关插件
 date: 2018-12-31T12:57:00+08:00
 lastmod: 2018-12-31T12:57:00+08:00
-slug: howto-setup-elasticsearch-6.2.2-in-centos
+featuredImage: "https://images.unsplash.com/photo-1554306274-f23873d9a26c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
 ---
 
 elasticsearch是一个开源的搜索服务器，提供了一个分布式多用户能力的全文搜索引擎，下面是我的安装笔记

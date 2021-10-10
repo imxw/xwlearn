@@ -2,7 +2,7 @@
 title: "利用Jupyter Notebook打造go及python交互式编程环境"
 date: 2019-06-02T21:17:00+08:00
 lastmod: 2019-06-02T21:17:00+08:00
-slug: how-to-config-go-python-kernel-for-jupyter-notebook
+featuredImage: "https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
 ---
 
 ## 先说说Jupyter Notebook

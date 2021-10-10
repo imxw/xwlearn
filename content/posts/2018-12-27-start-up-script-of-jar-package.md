@@ -2,7 +2,7 @@
 title: "一个jar包启动脚本"
 date: 2018-12-27T18:30:00+08:00
 lastmod: 2018-12-27T18:30:00+08:00
-slug: start-up-script-of-jar-package
+featuredImage: https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
 ---
 
 

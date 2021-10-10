@@ -2,18 +2,18 @@
 title: "如何替换jar/war包里的文件"
 date: 2018-12-25T10:14:00+08:00
 lastmod: 2018-12-25T10:14:00+08:00
-slug: howto-replace-file-in-war-package
+featuredImagePreview: https://images.unsplash.com/photo-1515704089429-fd06e6668458?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
 ---
 
 ### 要替换的文件在包的根目录
 
-```shell
+```bash
 # 如要替换 test.war 包里的 test.xml
 [xuwu@localhost ~]$ jar uvf test.war test.xml
 ```
 ### 要替换的文件在包的其他目录
 
-```shell
+```bash
 # 如果不知道想改的文件在哪个目录，可以用 grep 查看下
 [xuwu@localhost ~]$ jar tvf test.war | grep application.yml
    507 Tue Dec 25 09:45:48 CST 2018 WEB-INF/classes/application.yml
@@ -36,7 +36,7 @@ drwxrwxr-x 4 xuwu xuwu     4096 12月  6 21:54 WEB-INF
 
 ### jar 常见用法
 
-```shell
+```bash
 # 解压 .jar/.war 文件到当前目录
 jar -xvf file.jar
 

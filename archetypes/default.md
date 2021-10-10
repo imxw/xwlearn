@@ -11,8 +11,6 @@ series: []
 featuredImage: ""
 featuredImagePreview: ""
 
-toc:
-  enable: true
 ---
 
 TODO

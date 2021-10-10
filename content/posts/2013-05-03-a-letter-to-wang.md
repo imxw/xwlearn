@@ -2,6 +2,8 @@
 title: "给王二的一封信"
 date: 2013-05-03T01:35:00+08:00
 lastmod: 2013-05-03T01:35:00+08:00
+toc: false
+featuredImage: https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=741&q=80
 ---
 
 亲爱的王二：

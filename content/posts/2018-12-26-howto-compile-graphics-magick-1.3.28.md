@@ -2,7 +2,7 @@
 title: 编译安装GraphicsMagick-1.3.28
 date: 2018-12-26T17:25:00+08:00
 lastmod: 2018-12-26T17:25:00+08:00
-slug: howto-compile-graphics-magick
+featuredImage: https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
 ---
 
 GraphicsMagick 号称为图像处理领域的瑞士军刀，下面是我的安装笔记，如果你想一键安装可以在命令行运行
@@ -21,7 +21,7 @@ CentOS Linux release 7.4.1708 (Core)
 ```
 
 ## 官网地址 
-ftp://ftp.graphicsmagick.org/pub/GraphicsMagick/
+<ftp://ftp.graphicsmagick.org/pub/GraphicsMagick/>
 
 ## 下载版本
 GraphicsMagick-1.3.28

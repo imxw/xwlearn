@@ -4,6 +4,7 @@ date: 2020-01-27T19:34:00+08:00
 lastmod: 2020-01-27T19:34:00+08:00
 slug: config-k8s-1.17.2-with-kubeadm
 tags: [kubernetes]
+featuredImage: "https://images.unsplash.com/photo-1575714223081-7912ca3255a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
 ---
 
 ## 准备工作

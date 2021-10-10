@@ -2,11 +2,11 @@
 title: "为什么你需要用卡片进行知识管理？"
 date: 2017-01-09T01:35:00+08:00
 lastmod: 2017-01-09T01:35:00+08:00
-slug: why-do-you-need-cards-to-manage-knownage
-toc: true
+featuredImage: https://images.unsplash.com/photo-1569235186275-626cb53b83ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80
 ---
 
 ## 1.卡片用于治学
+
 为什么我们要用卡片进行知识管理，首先看看网上一段文字：
 > 鲁迅写《中国小说史略》，分类摘抄的卡片就有**五千多张**;姚学垠写《李自成》，阅读大量史籍，摘录卡片有**二万多张**;明史专家吴晗一生中做的卡片难以计数，其中仅有关《明史》的卡片就有**20万张**之多。
 

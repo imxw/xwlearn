@@ -4,6 +4,8 @@ slug: howto-get-the-week-of-year-in-notion
 date: 2020-03-28T19:59:19+08:00
 lastmod: 2020-03-28T19:59:19+08:00
 tags: [notion]
+
+featuredImage: "https://images.unsplash.com/photo-1489844981779-7f06e8e0fdbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
 ---
 
 玩[Notion](https://www.notion.so/Notion-Official-83715d7703ee4b8699b5e659a4712dd8)已近一年，今天才知道怎么用最简单的方式轻松计算某日属于当年第几周。不过，也怪不得我啊，官方示例根本就没有，各个notion达人也没见哪一位提到这一点，下面说说我是怎么误打误撞发现的吧。

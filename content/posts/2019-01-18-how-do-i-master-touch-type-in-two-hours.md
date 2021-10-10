@@ -2,7 +2,7 @@
 title: "我是怎么用两个多小时掌握盲打的"
 date: 2019-01-18T20:08:00+08:00
 lastmod: 2019-01-18T20:08:00+08:00
-slug: how-do-i-master-touch-type-in-two-hours
+featuredImage: "https://images.unsplash.com/photo-1567886523883-8b32560fda2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
 ---
 
 ### 人人都能学会盲打

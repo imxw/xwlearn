@@ -8,37 +8,6 @@ fi
 
 filename=$1
 today=$(date +"%F")
-date=${today}T$(date +"%T+08:00")
-post_dir=content/posts
-post_name=${today}-${filename}.md
-post_path=${post_dir}/${post_name}
+post_file=${today}-${filename}.md
 
-if [ $1 == 0 ];then
-    post_name=${today}.md
-    filename=${today}
-    title=${today}
-    post_path=${post_dir}/chat/${post_name}
-elif [ $1 == 1 ];then
-    title="资治通鉴卷x纪xpx"
-    filename="history-as-a-mirror-bookx-x-periodx-pagex"
-    post_name=${today}-${filename}.md
-    post_path=${post_dir}/chat/${post_name}
-    tag="资治通鉴"
-    memo="- [ ] 修改文件名\n - [ ] 修改slug \n - [ ] 修改title"
-fi
-
-current_dir=$(dirname $(readlink -f "$0"))
-full_post_path=${current_dir}/${post_path}
-
-cat > ${post_path} <<EOF
----
-title: "${title}"
-slug: $filename
-date: ${date}
-tags: [${tag}]
-draft: true
----
-${memo}
-EOF
-
-echo "${full_post_path} created"
+hugo new posts/${post_file}
