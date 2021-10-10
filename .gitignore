@@ -1,6 +1,10 @@
-**/.DS_Store
+.DS_Store
 .favorites.json
 .metion/
 .configs/
 .sync/
 public/
+.db/
+.markeditor/
+.posts_info.json
+git_settings.json
