@@ -7,6 +7,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1497864149936-d3163f0c0f
 ## 背景
 今年过年期间将几乎荒废的站点迁移至 hugo，没写几篇，上个月再把站点迁移至国内，然后备了个案，选了个新主题--[DoIt](https://hugodoit.pages.dev/zh-cn/)，准备重新开张，故有此文。
 
+
 ## 名词解释 
 - **静态博客**: 利用静态网站生成器（如 hexo，hugo 等）将文章编译成 html、css、js 等静态文件，可利用 GitHub Pages、OSS 等托管，好处是不需要另外购买服务器。
 
@@ -99,16 +100,24 @@ hugo serve
 
 ### 静态文件生成
 
+
 ```bash
 hugo
 ```
+
 直接使用 hugo 命令即可，该命令会在 public 目录下生成网站最终的静态文件，如果希望其他人也能通过浏览器访问到，就需要一个公共服务来托管我们的静态文件，本次使用腾讯云的 COS。
 
 ### 静态文件托管
 
-登录 coding --> 然后新建项目--> 在该项目下新建代码仓库
+
+{{< mermaid >}}graph LR;
+    A[登录 coding] --> B[新建项目] 
+    B --> C[新建代码仓库]
+{{< /mermaid >}}
+
 
 将你本地项目的远程仓库指向 coding 新建的仓库
+
 ```bash
 > hugo # 生成静态文件
 > cd myblog/public # 进入静态文件目录
