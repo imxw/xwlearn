@@ -27,10 +27,9 @@ public_git(){
 # 提交blog更改到远程blog分支
 echo "将会将本地更改提交到远程blog分支"
 echo "当前目录：$(pwd)";git pull origin blog && git status
-git add .; git status
-git commit -m "${commit}"
+#git add .; git status
+#git commit -m "${commit}"
 git push origin blog && echo "本地更改已提交至远程仓库blog分支"
-#git log -n 1
 git --no-pager log -n 1
 
 # 判断public目录是否存在，存在则删除
