@@ -6,12 +6,13 @@ description: ""
 tags: [GitLab]
 categories: []
 series: []
+ruby: true
 
 featuredImage: "https://images.unsplash.com/photo-1531030874896-fdef6826f2f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
 featuredImagePreview: ""
 ---
 
-我司使用 GitLab CI 实现持续集成，之前想在 k8s 集群中部署 GitLab Runner，结果 Pod 不断重启，使得大量离线的 Runner 被注册到 GitLab 中，查找 runner 时略影响效率。虽然对 GitLab 总体使用影响不大，但作为一个强迫症，必须除之而后快。可惜 GitLab 界面上并没有批量删除按钮，倒可以一个一个删，但这上百个 runner，纯手删的话，简直是折磨，也没找到相关接口，所以我只好暂时放下了。
+我司使用 GitLab CI 实现持续集成，之前想在 k8s 集群中部署 [GitLab Runner]^(相当于 GitLab CI 的 agent)[^1]，结果 Pod 不断重启，使得大量离线的 Runner 被注册到 GitLab 中，查找 runner 时略影响效率。虽然对 GitLab 总体使用影响不大，但作为一个强迫症，必须除之而后快。可惜 GitLab 界面上并没有批量删除按钮，倒可以一个一个删，但这上百个 runner，纯手删的话，简直是折磨，也没找到相关接口，所以我只好暂时放下了。
 ![](https://tva1.sinaimg.cn/large/008i3skNly1gvctufzs4cj61010l1q3x02.jpg)
 
 后来对接 GitLab，又把这个事给拾起来了，只因每次操作 GitLab，看到这个界面就非常不爽。这次也终于如愿清理了它们，具体实现如下。
@@ -66,3 +67,5 @@ for i in {4..428};do echo $i; gitlab runner delete --id $i;done
 ![](https://tva1.sinaimg.cn/large/008i3skNly1gvcuqli9u8j60zr08e3ys02.jpg)
 
 终于只剩下这三个正常的了。
+
+[^1]: 可直接使用 GitLab 本身的 kubernetes 集成功能下载 Gitlab Runner
