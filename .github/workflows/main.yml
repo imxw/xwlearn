@@ -36,7 +36,13 @@ jobs:
           extended: true
           
       - name: Run Hugo
-        run: |
-          hugo
-          pwd && ls -l
+        run: hugo --minify
+
+      - name: Deploy to coding
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: ${{ secrets.CODING_REPO }}
+          BRANCH: master
+          FOLDER: public
+          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
 
