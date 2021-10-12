@@ -15,7 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1497864149936-d3163f0c0f
 
 - **coding**: 腾讯旗下代码托管平台，类似于 GitHub、GitLab、Gitee 等。
 
-- **Markdown**：一种静态标记语言，可理解为简化版 html，常被程序员用于编写文档，实际上写文章用 markdown 最爽，专注于内容，无需纠结格式（珍爱生命，远离 Word）。
+- **Markdown**：一种轻量级标记语言，可理解为简化版 html，常被程序员用于编写文档，实际上写文章用 markdown 最爽，专注于内容，无需纠结格式（珍爱生命，远离 Word）。
 
 - **Git**：一款开源的代码版本管理工具，常为程序员所用，实际上可以管理一切纯文本，写文章时佐以 markdown，甚佳。
 
