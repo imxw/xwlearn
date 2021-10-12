@@ -46,4 +46,5 @@ jobs:
           FOLDER: public
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           KNOWN_HOSTS_FILE: resources/known_hosts
+          MESSAGE: "[Github Action]\nThis updates the content to the commit {sha} that had the message:\n{msg}"
 
