@@ -45,4 +45,5 @@ jobs:
           BRANCH: master
           FOLDER: public
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+          KNOWN_HOSTS_FILE: resources/known_hosts
 
