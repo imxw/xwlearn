@@ -62,7 +62,7 @@ for i in {4..428};do echo $i; gitlab runner delete --id $i;done
 ```
 是不是很简单，`gitlab`CLI也没有提供批量删除命令，使用 shell 中 for 循环逐个删除就好了。
 
-至于 id，如何获取呢，每注册一个 runner，其id 编号+1，前三个都是正常的，所有从 4 开始，最后一位编号是 428（可在界面上点击进入相应 runner 详情，从 url 中查看）。
+至于 id，如何获取呢，每注册一个 runner，其id 编号+1，前三个都是正常的，所以从 4 开始，最后一位编号是 428（可在界面上点击进入相应 runner 详情，从 url 中查看）。
 
 ![](https://tva1.sinaimg.cn/large/008i3skNly1gvcuqli9u8j60zr08e3ys02.jpg)
 
