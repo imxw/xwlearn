@@ -2,10 +2,8 @@
 
 ## 所有文章
 - [如何批量删除离线的 GitLab Runner](https://xwlearn.com/howto-delete-offline-gitlab-runners-in-batches)--2021-10-12
-- [像黑客一样写作](https://xwlearn.com/hacker-writer)--2021-10-11
 - [杀毒记一](https://xwlearn.com/antivirus1)--2021-10-11
 - [使用hugo与coding部署静态博客](https://xwlearn.com/howto-deploy-static-blog-with-hugo-and-coding)--2021-10-10
-- [如何使用GitLab CI实现小程序CICD](https://xwlearn.com/howto-achieve-miniprogram-cicd-with-gitlab-ci)--2021-02-02
 - [使用Python开发一款小鹤双拼编码查询工具](https://xwlearn.com/howto-quickly-make-a-tool-for-xhup)--2020-05-03
 - [如何在iOS端优雅地bb](https://xwlearn.com/howto-graciously-bb-in-ios)--2020-05-01
 - [如何在Mac上使用uTools优雅地bb？](https://xwlearn.com/howto-graciously-bb-in-mac)--2020-04-27
