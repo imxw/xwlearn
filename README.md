@@ -26,7 +26,7 @@
 - [文艺批评与普通读者](https://xwlearn.com/literary-criticism-and-common-reader)--2013-11-15
 - [读《人间词话》](https://xwlearn.com/read-human-words)--2013-10-22
 - [老井](https://xwlearn.com/old-well)--2013-09-21
-- [打油诗一首](https://xwlearn.com/oggerel)--2013-09-20
+- [打油诗一首](https://xwlearn.com/doggerel)--2013-09-20
 - [谈装](https://xwlearn.com/talk-about-hypocrisy)--2013-06-23
-- [碎语闲言](https://xwlearn.com/y-feeling)--2013-05-31
+- [碎语闲言](https://xwlearn.com/my-feeling)--2013-05-31
 - [给王二的一封信](https://xwlearn.com/a-letter-to-wang)--2013-05-03
