@@ -1,0 +1,50 @@
+name: Generate README
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - gen_readme.py
+      - 'content/posts/**'
+
+jobs:
+  sync:
+    name: Generate README
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.6
+
+      - name: Configure pip cache
+        uses: actions/cache@v1
+        id: pip-cache
+        with:
+          path: venv
+          key: pip-1-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            pip-
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+        if: steps.pip-cache.outputs.cache-hit != 'true'
+
+      - name: Generate new md 
+        run: |
+          source venv/bin/activate
+          python gen_readme.py
+          curl -H "Content-Type:application/json" -X POST -d '{"inputs": {}, "ref":"main"}' https://api.github.com/repos/imxw/xwlearn/actions/workflows/14090221/dispatches -H "Authorization: token ${{ secrets.FLOW_TOKEN }}"
+        
+      - name: Push README
+        uses: github-actions-x/commit@v2.6
+        with:
+          github-token: ${{ secrets.FLOW_TOKEN }}
+          commit-message: "feat(post): update README [skip ci]"
+          files: README.md
+          rebase: 'true'
