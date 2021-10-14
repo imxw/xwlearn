@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - gen_readme.py
+      - 'gen_readme.py'
       - 'content/posts/**'
 
 jobs:
