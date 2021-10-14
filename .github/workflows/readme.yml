@@ -39,7 +39,7 @@ jobs:
         run: |
           source venv/bin/activate
           python gen_readme.py
-          curl -H "Content-Type:application/json" -X POST -d '{"inputs": {}, "ref":"main"}' https://api.github.com/repos/imxw/xwlearn/actions/workflows/${{ secrets.README_ID }}/dispatches -H "Authorization: token ${{ secrets.FLOW_TOKEN }}"
+          # curl -H "Content-Type:application/json" -X POST -d '{"inputs": {}, "ref":"main"}' https://api.github.com/repos/imxw/xwlearn/actions/workflows/${{ secrets.README_ID }}/dispatches -H "Authorization: token ${{ secrets.FLOW_TOKEN }}"
         
       - name: Push README
         uses: github-actions-x/commit@v2.6
