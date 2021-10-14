@@ -1,10 +1,9 @@
 ---
 title: "使用hugo与coding部署静态博客"
-tags: [hugo,blog,折腾]
+tags: [hugo,blog]
 featuredImagePreview: https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80
 ---
 
-## 背景
 今年过年期间将几乎荒废的站点迁移至 hugo，没写几篇，上个月再把站点迁移至国内，然后备了个案，选了个新主题--[DoIt](https://hugodoit.pages.dev/zh-cn/)，准备重新开张，故有此文。
 
 
