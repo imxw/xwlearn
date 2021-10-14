@@ -39,11 +39,13 @@ jobs:
         run: |
           source venv/bin/activate
           python gen_readme.py
-          ls -al
       - name: Push README
         uses: github-actions-x/commit@v2.6
         with:
           github-token: ${{ secrets.FLOW_TOKEN }}
           commit-message: "feat(post): update README [skip ci]"
+          push-branch: 'main'
+          force-add: 'true'
           files: README.md
-          rebase: 'true'
+          name: xuwu
+          email: ixw1991@126.com
