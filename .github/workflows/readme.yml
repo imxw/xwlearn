@@ -43,9 +43,7 @@ jobs:
         uses: github-actions-x/commit@v2.6
         with:
           github-token: ${{ secrets.FLOW_TOKEN }}
-          commit-message: "feat(post): update README [skip ci]"
+          commit-message: "feat(post): Generate README.md [skip ci]"
           push-branch: 'main'
           force-add: 'true'
           files: README.md
-          name: xuwu
-          email: ixw1991@126.com
