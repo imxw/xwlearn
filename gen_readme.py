@@ -50,7 +50,7 @@ if __name__ == '__main__':
     
     # 写入README
     with open('README.md', 'w', encoding='utf-8') as f:
-        header = "## [习吾学]({})\n\n".format(DOMAIN)
+        header = "## [习吾学]({})\n\n[![](https://img.shields.io/badge/blog-xwlearn-red.svg)](https://xwlearn.com) https://github.com/imxw/xwlearn/workflows/Generate%20README/badge.svg".format(DOMAIN)
 
         format_posts = []
 
