@@ -1,5 +1,7 @@
 ## [习吾学](https://xwlearn.com)
 
+[![](https://img.shields.io/badge/blog-xwlearn-green.svg)](https://xwlearn.com) [![](https://github.com/imxw/xwlearn/workflows/CI/badge.svg)](https://github.com/imxw/xwlearn/actions/workflows/main.yml)  [![](https://github.com/imxw/xwlearn/workflows/Generate%20README/badge.svg)](https://github.com/imxw/xwlearn/actions/workflows/readme.yml) 
+
 ## 所有文章
 - [如何批量删除离线的 GitLab Runner](https://xwlearn.com/howto-delete-offline-gitlab-runners-in-batches)--2021-10-12
 - [杀毒记一](https://xwlearn.com/antivirus1)--2021-10-11
