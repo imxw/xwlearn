@@ -1,5 +1,5 @@
 ---
-title: "像黑客一样写作"
+title: "像极客一样写作"
 draft: true
 authors: []
 description: ""
