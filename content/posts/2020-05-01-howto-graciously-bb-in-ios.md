@@ -3,8 +3,7 @@ title: "如何在iOS端优雅地bb"
 date: 2020-05-01T15:45:18+08:00
 lastmod: 2020-05-01T15:45:18+08:00
 tags: [bb]
-featuredImagePreview: "http://omz-software.com/pythonista/images/DeviceScreenshots.png"
-draft: false
+featuredImagePreview: "https://images.unsplash.com/photo-1612128686557-71729cbcfe41?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1190&q=80"
 toc:
   enable: false
 lightgallery: true
