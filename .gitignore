@@ -1,7 +1,6 @@
 
 .DS_Store
 .favorites.json
-.metion/
 .configs/
 .sync/
 public/
@@ -26,3 +25,7 @@ Thumbs.db*
 /*.sqlite3
 
 venv/
+
+!.metion/
+.metion/*
+!.metion/*_sort.config
