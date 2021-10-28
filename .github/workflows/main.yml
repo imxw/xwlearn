@@ -30,7 +30,7 @@ jobs:
           fetch-depth: 0
 
       - name: update envid of twikoo
-	env:
+        env: 
           TWIKOO_ID: ${{ secrets.TWIKOO_ID }}
         run: sed -i "s/TWIKOO_ID/${TWIKOO_ID}/g" ./config.toml
   
