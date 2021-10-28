@@ -28,6 +28,11 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0
+
+      - name: update envid of twikoo
+	env:
+          TWIKOO_ID: ${{ secrets.TWIKOO_ID }}
+        run: sed -i "s/TWIKOO_ID/${TWIKOO_ID}/g" ./config.toml
   
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
