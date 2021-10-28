@@ -39,7 +39,6 @@ jobs:
         run: |
           source venv/bin/activate
           python gen_readme.py
-          ls -l | grep README
           git diff
       - name: Push README
         uses: github-actions-x/commit@v2.6
@@ -49,3 +48,5 @@ jobs:
           push-branch: 'main'
           rebase: 'true'
           files: README.md
+          name: xuwu
+          email: ixw1991@126.com
