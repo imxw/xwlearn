@@ -18,12 +18,6 @@ def list_all_files(root_path, ignore_dirs=[]):
                 files.append(file)
     return sorted(files,reverse=True)
 
-def main():
-    with open(POST_DIR + '2013-09-20-doggerel.md', 'r', encoding='utf-8') as f:
-        post = frontmatter.loads(f.read())
-        print(post)
-
-
 
 if __name__ == '__main__':
     posts = list_all_files(POST_DIR)
