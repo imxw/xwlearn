@@ -1,0 +1,153 @@
+baseURL  =  "https://xwlearn.com"
+
+languageCode = "zh-CN"
+defaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+
+title  =  "习吾学"
+subtitle = "徐武的技术博客"
+
+theme  =  "DoIt"
+
+summaryLength = 140
+# 每页显示的文章数量用于分页
+paginate =  10
+# rss 输出数量
+rssLimit = 5
+
+enableGitInfo = true
+
+enableEmoji = true
+
+defaultTheme = "auto"
+
+images = ["/images/avatar.png"]
+
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+[permalinks]
+  posts = "/:slug/"
+  tags = "/tags/:slug/"
+
+[menu]
+  [[menu.main]]
+  identifier = "posts"
+  pre = ""
+  post = ""
+  name="文章"
+  url="/posts/"
+  title = ""
+  weight = 1
+  [[menu.main]]
+  identifier = "tags"
+  pre = ""
+  post = ""
+  name="标签"
+  url="/tags/"
+  title = ""
+  weight = 2
+  [[menu.main]]
+  identifier = "categories"
+  pre = ""
+  post = ""
+  name="分类"
+  url="/categories/"
+  title = ""
+  weight = 3
+  [[menu.main]]
+  identifier = "about"
+  pre = ""
+  post = ""
+  name = "关于"
+  url="/about/"
+  title = ""
+  weight = 4
+  [[menu.main]]
+  identifier = "github"
+  pre = "<i class='fab fa-github fa-fw'></i>"
+  post = ""
+  name = ""
+  url = "https://github.com/imxw/xwlearn/"
+  title = "GitHub"
+  weight = 5
+
+[params]
+  version = "0.2.X"
+  DateFormat = "2006-01-02"
+  keywords = ["Linux", "Python", "SRE", "DevOps","技术", "学习"]
+  gitRepo = "https://github.com/imxw/xwlearn"
+
+  [params.home]  
+    rss = 10
+    [params.home.profile]
+      enable = true
+      title = ""
+      subtitle = "一枚运维工程师的自留地"
+      avatarURL = "/images/avatar.png"
+      typeit = true
+      social = true
+    [params.home.posts]  
+      enable = true
+      paginate = 8
+      defaultHiddenFromHomePage = false
+  [params.social]  
+    GitHub = "imxw"
+    Weibo = "1816332817"
+    Email = "ixw1991@126.com"
+    RSS = true
+
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    themeChangeMode = "select"
+
+
+
+  [params.footer]
+    enable = true
+    hugo = true
+    copyright = true
+    since = 2020
+    icp = '<a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2021030757号-1</a>'
+    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  [params.page]  
+    fontawesome = true
+    [params.page.share]
+      enable = true
+      Twitter = true
+      HackerNews = true
+      Reddit = true
+      Weibo = true
+    [params.page.comment]
+      enable = true
+      [params.page.comment.twikoo]
+        enable = true
+       	envId = "TWIKOO_ID"
+	region = ""
+	path = ""
+	visitor = true
+	commentCount = true
+
+[markup]
+  # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+
+[author]
+  name = "xuwu"
+  email = "ixw1991@126.com"
+  link = "https://xwlearn.com"
+
+[frontmatter]
+  date = [':filename', ':default']
+  lastmod = ['lastmod', '.git', ':fileModTime', ':default']
+  publishDate = ['publishDate', 'date', ':filename']
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
