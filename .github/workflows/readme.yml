@@ -44,7 +44,7 @@ jobs:
         uses: github-actions-x/commit@v2.6
         with:
           github-token: ${{ secrets.FLOW_TOKEN }}
-          commit-message: "feat(post): Generate README.md [skip ci]"
+          commit-message: "chore: Generate README.md [skip ci]"
           push-branch: 'main'
           rebase: 'true'
           files: README.md
