@@ -47,5 +47,5 @@ jobs:
           github-token: ${{ secrets.FLOW_TOKEN }}
           commit-message: "feat(post): Generate README.md [skip ci]"
           push-branch: 'main'
-          force-add: 'true'
+          rebase: 'true'
           files: README.md
