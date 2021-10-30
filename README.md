@@ -23,6 +23,7 @@
 - [编译安装GraphicsMagick-1.3.28](https://xwlearn.com/howto-compile-graphics-magick-1.3.28)--2018-12-26
 - [如何替换jar/war包里的文件](https://xwlearn.com/howto-replace-file-in-war-package)--2018-12-25
 - [vim高尔夫解说之逗号问题](https://xwlearn.com/vimgolf-comma-trouble)--2018-12-19
+- [八月用时](https://xwlearn.com/august)--2018-09-16
 - [为什么你需要用卡片进行知识管理？](https://xwlearn.com/why-do-you-need-cards-to-manage-knownage)--2017-01-09
 - [小时读书](https://xwlearn.com/read-book-in-childhoo)--2014-01-20
 - [文艺批评与普通读者](https://xwlearn.com/literary-criticism-and-common-reader)--2013-11-15
