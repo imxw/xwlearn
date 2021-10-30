@@ -25,6 +25,10 @@ featuredImagePreview: "http://omz-software.com/pythonista/images/DeviceScreensho
 - 展示单字拆解图
 - 展示单字拼音
 
+效果如下：
+
+{{<image src="https://tva1.sinaimg.cn/large/008i3skNly1gvxhj7xib3j30ss0nf3zm.jpg" caption="查询效果" width="420" height="518">}}
+
 ## 具体实现
 
 ### 接口分析
