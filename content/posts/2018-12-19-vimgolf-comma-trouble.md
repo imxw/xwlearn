@@ -63,7 +63,8 @@ vim 是 vi 编辑器的升级版，是 Linux <i class="fa fa-linux" aria-hidden=
 
 第一局，我的得分是29分，也就是击了29键。既然是批量操作，我首先想到的是命令模式，该模式也被称为冒号模式，因为以冒号开头。
 
-![image](https://ws3.sinaimg.cn/large/006tNbRwly1fyfjq1umxxg307u074q3g.gif)
+![](https://tva1.sinaimg.cn/large/008i3skNly1gvwkdzotgag307u074dgc.gif)
+
 
 ```bash
 :1,5norm x$P<CR>
@@ -74,7 +75,7 @@ vim 是 vi 编辑器的升级版，是 Linux <i class="fa fa-linux" aria-hidden=
 - `norm`后空一格以输入`普通模式`命令，删(x)第一个字符（`,`），跳到行位(`$`在`普通模式`中是指作用到行尾)，在最后一个字符前粘贴(`P`)之前删掉的字符（`,`），按`<CR>`（Enter）键执行操作
 - 至此，首轮操作完毕，光标跳到第5行倒数最后一个逗号上
 
-![image](https://ws3.sinaimg.cn/large/006tNbRwly1fyfjusmf8pg307u0743z3.gif)
+![](https://tva1.sinaimg.cn/large/008i3skNly1gvwkfhfglwg307u074aan.gif)
 
 ```bash
 :6,$norm $x0p<CR>ZZ
@@ -89,7 +90,7 @@ vim 是 vi 编辑器的升级版，是 Linux <i class="fa fa-linux" aria-hidden=
 
 使用`命令模式`虽然简单易懂，但是局限也很明显，那就是无法再降低击键数了，这次我们换一个模式：`可视模式`，所谓`可视模式`其实还是在`普通模式`中，只不过可以像鼠标一样选中字符、行、块。
 
-![image](https://ws4.sinaimg.cn/large/006tNbRwly1fyfjvnost9g307u074407.gif)
+![](https://tva1.sinaimg.cn/large/008i3skNly1gvwkg0wt7rg307u074406.gif)
 
 ```bash
 <C-V>4jx$<C-V>4jI,<Esc>6G<C-V>4jA,<Esc>$<C-V>4jdZZ
@@ -104,7 +105,7 @@ vim 是 vi 编辑器的升级版，是 Linux <i class="fa fa-linux" aria-hidden=
 
 第二次尝试虽然比第一次降低3次按键，但是还有很大的优化空间，我们先把他放在一边，这次我们换一种方式，利用 vim 的录制宏来操作。
 
-![image](https://ws3.sinaimg.cn/large/006tNbRwly1fyfjwwqtcgg307u074gmy.gif)
+![](https://tva1.sinaimg.cn/large/008i3skNly1gvwkh5sx1xg307u074q49.gif)
 
 ```bash
 qa<C-V>4jx6G$q@a0p{$PZZ
@@ -118,7 +119,7 @@ qa<C-V>4jx6G$q@a0p{$PZZ
 
 ## 第四局：14分
 
-![image](https://ws1.sinaimg.cn/large/006tNbRwly1fyfjyzjx4kg307u074js0.gif)
+![](https://tva1.sinaimg.cn/large/008i3skNly1gvwkhgxd6zg307u074js0.gif)
 
 ```bash
 <C-V>Mx$P}<C-V>4kx0pZZ
@@ -134,7 +135,7 @@ qa<C-V>4jx6G$q@a0p{$PZZ
 
 ## :(fa fa-thumbs-up): 终极操作：12分
 
-![image](https://ws1.sinaimg.cn/large/006tNbRwly1fyfk0jipsyg307u074gm8.gif)
+![](https://tva1.sinaimg.cn/large/008i3skNly1gvwkhtmizag307u074mxs.gif)
 
 ```bash
 qaxpeq98@aZZ
