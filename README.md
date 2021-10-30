@@ -3,6 +3,7 @@
 [![](https://img.shields.io/badge/blog-xwlearn-green.svg)](https://xwlearn.com) [![](https://github.com/imxw/xwlearn/workflows/CI/badge.svg)](https://github.com/imxw/xwlearn/actions/workflows/main.yml)  [![](https://github.com/imxw/xwlearn/workflows/Generate%20README/badge.svg)](https://github.com/imxw/xwlearn/actions/workflows/readme.yml) 
 
 ## 所有文章
+- [利用 Pythonista 制作一款 98 五笔编码查询工具](https://xwlearn.com/search-98wubi-in-the-pythonista)--2021-10-30
 - [杀毒记二](https://xwlearn.com/antivirus2)--2021-10-23
 - [为 obsidian 中的文件批量添加 front matter](https://xwlearn.com/howto-add-frontmatter-in-batch-for-files-in-obsidian)--2021-10-17
 - [如何批量删除离线的 GitLab Runner](https://xwlearn.com/howto-delete-offline-gitlab-runners-in-batches)--2021-10-12
