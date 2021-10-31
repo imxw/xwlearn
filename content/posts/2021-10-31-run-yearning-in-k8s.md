@@ -74,7 +74,9 @@ WORKDIR /opt
 docker build -t ${repo_addr}/${namespace}/yearning:2.0.0 .
 docker push ${repo_addr}/${namespace}/yearning:2.0.0
 ```
-注意：标签请写上自己的私有仓库全称，这里仅是示意。
+{{< admonition open=true >}}
+标签请写上自己的私有仓库全称，这里仅是示意。
+{{< /admonition >}}
 
 ## 创建数据库
 
