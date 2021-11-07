@@ -36,10 +36,10 @@ Davinci 详细介绍及使用见[官方文档](https://edp963.github.io/davinci/
 
 官方并未提供 Docker 镜像，我定做了一个。
 
-### java 镜像
+### Java 镜像
 
 {{< admonition open=true >}}
-直接用 java 镜像的话，由于其基础镜像不是 centos，部署 chrome 及 chromedirver 会有问题，所有我干脆重新定做了 java 镜像
+直接用Docker官方镜像仓库中的 java 镜像的话，由于其基础镜像不是 centos，部署 chrome 及 chromedirver 会有问题，所有我干脆重新定做了 java 镜像
 {{< /admonition >}}
 
 先去官网下载 jdk-8u141-linux-x64.tar.gz，然后按如下`Dockerfile`定做 java 镜像
@@ -71,7 +71,7 @@ docker push registry-vpc.cn-beijing.aliyuncs.com/xxx/java:1.8.0
 标签请写上自己的镜像仓库全称，这里仅是示意。
 {{< /admonition >}}
 
-### Davince 镜像
+### Davinci 镜像
 
 先下载二进制文件
 ```bash
