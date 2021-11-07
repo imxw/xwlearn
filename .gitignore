@@ -29,3 +29,4 @@ venv/
 !.metion/
 .metion/*
 !.metion/*_sort.config
+.hugo_build.lock
