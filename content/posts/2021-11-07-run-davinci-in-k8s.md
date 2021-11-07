@@ -10,7 +10,7 @@ series: []
 code:
   maxShownLines: 100
 
-featuredImage: ""
+featuredImage: "https://images.unsplash.com/photo-1533406494543-e6cf6430f44a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
 featuredImagePreview: ""
 
 ---
@@ -43,7 +43,7 @@ Davinci 详细介绍及使用见[官方文档](https://edp963.github.io/davinci/
 {{< /admonition >}}
 
 先去官网下载 jdk-8u141-linux-x64.tar.gz，然后按如下`Dockerfile`定做 java 镜像
-···
+```
 FROM centos:7
 
 RUN cd / && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
@@ -59,13 +59,14 @@ ENV JAVA_HOME=/opt/jdk1.8.0_141
 ENV CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 ENV PATH=$JAVA_HOME/bin:$PATH
 CMD ["java", "-version"]
-···
+```
 
 制作并推送到远程仓库
-···bash
+```bash
 docker build -t registry-vpc.cn-beijing.aliyuncs.com/xxx/java:1.8.0 .
 docker push registry-vpc.cn-beijing.aliyuncs.com/xxx/java:1.8.0
-···
+```
+
 {{< admonition open=true >}}
 标签请写上自己的镜像仓库全称，这里仅是示意。
 {{< /admonition >}}
@@ -73,9 +74,10 @@ docker push registry-vpc.cn-beijing.aliyuncs.com/xxx/java:1.8.0
 ### Davince 镜像
 
 先下载二进制文件
-···bash
+```bash
 wget https://github.com/edp963/davinci/releases/download/v0.3.0-rc/davinci-assembly_0.3.1-0.3.1-SNAPSHOT-dist-rc.zip
-···
+```
+
 
 `Dockerfile`文件如下
 ```
