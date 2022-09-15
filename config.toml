@@ -119,9 +119,9 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
       Reddit = true
       Weibo = true
     [params.page.comment]
-      enable = true
+      enable = false
       [params.page.comment.twikoo]
-        enable = true
+        enable = false
        	envId = "TWIKOO_ID"
 	region = ""
 	path = ""
